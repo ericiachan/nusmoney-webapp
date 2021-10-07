@@ -5,5 +5,5 @@ npm i
 npm start
 ```
 
-### To run the client (frontend)
-Run using Live Reload extension (VSCode)
+### To run the client 
+Run using Live Reload extension in Visual Studio Code
