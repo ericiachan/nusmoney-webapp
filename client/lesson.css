@@ -1,0 +1,34 @@
+
+#mainTitle {
+    color:aqua;
+    font-size:50px;
+    font-weight:bold;
+}
+
+.chapter {
+    color: rgb(1, 19, 79);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    ;}
+
+#videocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+#buttoncontainer {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+#buttoncontainer .btn {
+    margin-left: 5px;
+}
+
+

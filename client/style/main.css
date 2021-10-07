@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../images/blue_background.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.progress-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px 50px;
+  /* background: rgba(11, 38, 43, 0.6); */
+}
+
+.progress-container h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.progress-container .progress-label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+

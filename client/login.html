@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>NUS Money</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type= "text/css" href="vendors/bootstrap/css/bootstrap.min.css" />
+<script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<style>
+html,
+body {
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url(images/blue_background.jpg);
+    background-size:cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.form-signin {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+    margin: auto;
+    background: rgba(11, 38, 43, 0.6);
+    border-radius: 30px;
+}
+  
+.avatar {
+    width: 250px;
+    height: 80px;
+    border-radius:0%;
+    position: absolute;
+    top: -36px;
+    left: calc(20%);
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 22px;
+}
+</style>
+</head>
+<body>
+    <main class="form-signin">
+        <!-- <img src="images/MONEY.JPG" alt="" class="avatar"> -->
+        <h1 class="h3 mb-3 fw-normal">NUS Money</h1>
+        <form>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="userid" placeholder="Enter User ID..." >
+                <label for="userid">Username</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="password" placeholder="Enter Password...">
+                <label for="password">Password</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="button" onclick="logIn()">Sign in</button>
+        </form>
+    </main>
+    <script src="login.js"></script>
+</body>
+</head>
+</html>
